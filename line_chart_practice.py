@@ -10,5 +10,4 @@ df.plot = ([5, 10, 15, 20], [10, 20, 30, 40])
 plt.xlim(0, 40)
 plt.ylim(0,40)
 
-st.pyplot(fig)
 plt.show()
