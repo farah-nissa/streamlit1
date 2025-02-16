@@ -9,4 +9,4 @@ df = pd.DataFrame({
     "y": [10, 20, 30, 40]})
 
 plt.plot(df['x'], df['y'])
-
+st.pyplot()
