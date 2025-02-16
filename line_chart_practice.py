@@ -5,7 +5,7 @@ import matplotlib as plt
 st.title("Line Plot Practice")
 
 data = pd.DataFrame({
-    "x": [1, 2, 3, 4],
+    "x": ['a', 'b', 'c', 'd'],
     "y": [10, 20, 30, 40]})
 
-df.plot(x="x", y="y", kind='plot')
+df.plot(x="x", y="y", kind='bar')
