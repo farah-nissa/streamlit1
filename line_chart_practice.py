@@ -4,9 +4,8 @@ import matplotlib as plt
 
 st.title("Line Plot Practice")
 
-data = pd.DataFrame({
-  x: [1, 2, 3, 4],
-  y: [10, 20, 30, 40]})
+x = [1, 2, 3, 4]
+y = [10, 20, 30, 40]
 
 plt.plot(x, y)
 
