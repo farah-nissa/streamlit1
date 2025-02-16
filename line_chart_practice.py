@@ -4,9 +4,7 @@ import matplotlib.pyplot as plt
 
 st.title("Line Plot Practice")
 
-df = pd.DataFrame({
-    "x": [5, 10, 15, 20],
-    "y": [10, 20, 30, 40]})
+fig, df = plt.subplots()
+df.plot = ([5, 10, 15, 20], [10, 20, 30, 40])
 
-plt.plot(df['x'], df['y'])
-st.pyplot()
+st.pyplot(fig)
