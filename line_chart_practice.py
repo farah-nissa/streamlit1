@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 st.title("Line Plot Practice")
 
-st.set_page_config(layout='wide')
+rcParams['axes.autolimit_mode'] = 'round_numbers'
 
 fig, df = plt.subplots()
 df.plot = ([5, 10, 15, 20], [10, 20, 30, 40])
