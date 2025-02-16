@@ -4,7 +4,7 @@ import matplotlib as plt
 
 st.title("Line Plot Practice")
 
-data = pd.dataFrame({
+data = pd.DataFrame({
     "x": [1, 2, 3, 4],
     "y": [10, 20, 30, 40]})
 
