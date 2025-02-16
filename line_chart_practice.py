@@ -4,10 +4,11 @@ import matplotlib as plt
 
 st.title("Line Plot Practice")
 
-x = [1, 2, 3, 4]
-y = [10, 20, 30, 40]
+data = pd.dataFrame({
+    "x": [1, 2, 3, 4],
+    "y": [10, 20, 30, 40]})
 
-plt.plot(x, y)
+plt.plot(df["x"], df["y"])
 
 st.pyplot()
 
