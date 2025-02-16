@@ -10,3 +10,8 @@ df = pd.DataFrame({
 
 plt.plot(df['x'], df['y'])
 st.pyplot()
+
+fig, ax = plt.subplots()
+ax.scatter([1, 2, 3], [1, 2, 3])
+
+st.pyplot(fig)
