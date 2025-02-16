@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
+
 st.title("Income by Year")
 
 data = pd.read_csv('C:\\\\Coding\\\\income_by_year.csv')
